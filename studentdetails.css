@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    align-items:center;
+    justify-content:center;
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+.backgroundAboutPhoto{
+    margin-top: -280px;
+    margin-left: -20vw;
+    width: 150vw;
+    position: fixed;
+    z-index: -1;
+    min-height: 768px;
+   
+  }
+.ourTeam{
+    display:flex;
+    width: 900px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    
+  }
+.singleTeam:hover{
+    transform: translateY(15px);
+}
+.singleTeam::before{
+    opacity: 1; 
+}
+.singleTeam:hover .teamText{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.singleTeam{
+    width: 400px;
+    height: 400px;
+    padding: 24px;
+    margin-left: 5px;
+    position:relative; 
+    display: flex;
+    align-items:flex-end;
+    border-style: solid;
+    border-width: 3px;
+    border-color:rgb(97, 99, 102);
+    transition: .5s ease-out;
+    
+}
+.singleTeam p a img{
+    top:0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    object-fit:cover;
+    filter: opacity(0.8) drop-shadow(0 0 rgb(255, 255, 255)); 
+  }
+
+.teamText span{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing:1px; 
+        color: #070707;
+        font-size: large;
+    }
+.ourText h2{
+        color: #fcfbfb;
+        text-align: center;
+        padding: 20px;
+    }
