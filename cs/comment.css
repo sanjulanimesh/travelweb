@@ -1,0 +1,179 @@
+
+#feedback-form{
+    display: block;   
+}
+
+.title {
+    text-align: center;
+    
+}
+.beach {
+    margin-top: -280px;
+    margin-left: -20vw;
+    width: 150vw;
+    position: fixed;
+    z-index: -1;
+    min-height: 768px;
+    min-height: 1280px;
+}
+
+.thank-you-card{
+    display: none;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding: 0 30px 30px;
+    color: #000;
+    letter-spacing:3px;
+}
+
+.thank-you-card h1{
+    font-size: 55px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+
+}
+
+.thank-you-card p{
+    font-size:20px ;
+    font-weight: 400;
+}
+
+.thank-you-card button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background:linear-gradient(135deg, #46d056, #4c8835) ;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+.thank-you-card button:hover{
+    background: #4c8835;
+
+}
+
+.com-content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+    padding-bottom: 30px;    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    padding:30px 40px ;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+
+}
+
+
+.details{
+    font-size: 1.2rem;
+    display: block;
+}
+.question{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+form .details .inputbox{
+    width: calc(100%/2  .20px);
+    margin: (25px 0px 25px 0);
+    
+}
+
+.details .inputbox input{
+    margin-top: 10px;
+    height: 45px;
+    width: 98% ;
+    outline:none;
+    border:1px solid rgba(0, 0, 0, 0.8);
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    border-color: rgba(0, 0, 0, 0.8);
+}
+
+form .button{
+    height: 45px;
+    width: 100%;
+}
+
+form .button input   {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background:linear-gradient(135deg, #46d056, #4c8835) ;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+form .button input:hover{
+    background:#4c8835;
+
+}
+.radio-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.small-feedback{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    float: left;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.inputbox label{
+    margin-top: 30px;
+}
+:required:invalid + label {
+    visibility: hidden;
+}
+
+.error-message{
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.5s;
+    border: 2px solid tomato;
+    width: 100;
+    background-color: red;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    padding: 5px 10px;
+}
