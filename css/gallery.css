@@ -12,10 +12,7 @@
     height: 55vh;
     /*background-image:url("istockphoto-1322859145-612x612.jpg");*/
     background-image: linear-gradient(to right top, #B2BEB5, #B2BEB5, #97A39A, #97A39A, #7D8980, #7D8980, #646F67, #4C574F, #364038, #202A23, #0A150D, #000000);}
-.background3{ /* large caption paragraph */
-    
-    
-}
+
 #galleText, #hikkaduwaText, #ellaText, #kandyText, #sigiriyaText, #unawatunaText, #arugambayText, #jaffnaText {
     display: none;  
   }
@@ -177,4 +174,3 @@
     }
 
 }
-
