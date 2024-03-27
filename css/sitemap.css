@@ -1,0 +1,73 @@
+
+.sVGbackground1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; /* set height */
+    
+  }
+  .lineC{
+      stroke: rgb(249, 249, 253);
+      stroke-width: 3;
+  }
+  .homeButton{
+      fill: url(#lineG);
+      stroke:  rgb(0, 133, 199);/* stroke colour */
+      stroke-width: 5;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      stroke-linecap: butt;
+      transition: 2s;
+       
+  }
+  .homeButton:hover{
+      
+      stroke-dashoffset: 0;
+      stroke-dasharray: 1000;
+      stroke-width: 5;
+      transition: 2s;
+  
+  }
+  .otherButton{
+      fill: url(#lineG);
+      stroke:  rgb(0, 133, 199);
+      stroke-width: 5;
+      stroke-dasharray: 700;
+      stroke-dashoffset: 700;
+      stroke-linecap: butt;
+      transition: 2s;
+  }
+  .otherButton:hover{
+      
+      stroke-dashoffset: 0;
+      stroke-dasharray: 700;
+      stroke-width: 10;
+  }
+  .topic{
+      font-family:Calibri;
+      text-anchor:middle;
+      font-size: 17px;
+      fill: aliceblue;
+      
+  }
+  .hTopic{
+      font-family:Calibri;
+      text-anchor:middle;
+      font-size: 26px;
+      fill: aliceblue;
+      
+  }
+  
+    .sVGbackground1 {
+      background-image: url('../images/wallpaperflare.com_wallpaper.jpg') ;
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+      
+    }
+  
+    
+    .getTop{
+      margin-top: 60px;
+    }
+  
