@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  .header{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    transition: all 0.5s;
+    width: 75%;
+    position: relative;
+    margin-top: 50px;
+}
+  
+  .navi-on-scroll{
+    transition: all 0.5s;
+    height: 60px;
+    background-color: rgb(222, 244, 250);
+    
+}
+  .nav{
+      top: 0;
+      left: 0;
+      margin: 0;
+      float: left;
+      display: flex;
+      align-items: center;
+      transition: all 0.5s;
+      width: 100%;
+      height: 70px;
+      position: fixed;
+      background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.8), rgba(9, 41, 59, 0.6), transparent); 
+  }
+
+  .logo{
+      flex-basis:1%;
+  }
+  
+  .logo img{
+      margin-top: 5px;
+      width: 50px;
+      height: 50px;
+  }
+  
+  .nav-text{
+      font-size: 25px;
+      font-family: 'dm sans', bold;
+      color: #ffffff;
+      letter-spacing: 2px;
+  }
+  
+  .nav-links{
+      flex:1;
+      text-align: right;
+      padding-right: 52px;
+      z-index: 100;
+  }
+  
+  .nav-links ul li{
+      list-style: none;
+      display: inline-block;     
+  }
+  .nav-links ul li a, .back-to-top{
+      display: inline-block;
+      color: #ffffff;
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      text-decoration: none;
+      padding: 8px 20px; 
+      border-radius: 35px;
+      margin-left: 10px;     
+  }
+  .nav-links ul li a:hover, .back-to-top{
+      background-color: rgba(0, 0, 0, 0.9);
+      color: rgb(0, 133, 199);
+      transition: 0.5s;
+  }
+  .back-to-top:hover{
+      background-color: rgba(0,0,0,0.8);
+      color: rgb(255, 255, 255);
+      transition: 0.5s;
+  }
+  
+  .nav-links ul li a.active{
+      background-color: transparent;
+      border: 2px solid rgb(255, 255, 255);
+      color: #ffffff;    
+  }
+
+  /* footer section css part*/
+  
+footer {
+    font-family: 'Raleway', cursive;
+    width: 100%;
+    position: relative;
+    font-family: 'Quicksand', cursive;  
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    padding: 70px 0px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    background: url(../images/footerimg.png) no-repeat;
+    line-height: 20px;
+
+}
+footer::after{
+    background: linear-gradient(white, transparent);
+    position: absolute;
+    width: 100%;
+    content: '';
+    top: 0;
+    height: 20px;
+}
+
+.footer-content {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 40;
+    justify-content: space-evenly;
+    display: flex;
+    color: black;
+}
+
+.footer-details{
+    line-height: 25px;
+    display: flex;
+    z-index: 101;
+    width: 74%; 
+    flex-direction: row-reverse;
+}
+
+.footer-card{
+    padding: 70px;
+    display: block;
+    align-items: right;
+    font-weight: 20.1px;
+    padding: 30px;
+    
+}
+.footer-content img{
+    flex-basis: 1%;
+    margin-top: 31px;
+    height: 100px;
+    width: 100%;
+}
+.footer-card ul li{
+    list-style: none;
+    
+}
+.footer-card ul li a{
+    color: rgb(0, 133, 199);
+    text-decoration: none; 
+}
+.footer-card ul li a:hover{
+    text-decoration: underline; 
+    color: rgb(0, 104, 156); 
+}
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing: 2px;
+    color: #fff;
+}
+.socials{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 3rem 0;
+    
+}
+.socials a:hover i{
+    color: grey;
+}
+.footer-bottom{
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+}
+
+.socials a{
+    text-decoration: none;
+        
+}
+.socials a i{
+    transition: color .5s ease;
+    color: rgb(26, 11, 11);
+    font-size: 1.1rem;  
+}
+.footer-bottom a{   
+    font-weight: 200;
+    text-decoration: none;
+    color: #ff0000;
+}
+
