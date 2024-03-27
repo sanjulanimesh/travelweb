@@ -1,0 +1,63 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    line-height: 2;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("student3images/backgroundAbout.jpg");
+    background-repeat: no-repeat;   
+        
+  }
+  
+  .post {
+    padding: 25px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ece6e6bf;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
+  }
+  
+  .ourPost {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    justify-content: center;
+    margin-top: 15px;
+    background-image: url('student3images/santhila.jpg');
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+  }
+  .backgroundAboutPhoto{
+    margin-top: -280px;
+    margin-left: -20vw;
+    width: 150vw;
+    position: fixed;
+    z-index: -1;
+    min-height: auto;
+    min-width:auto;
+  }
+  
+  .postContent h2 {
+    text-align: center;
+    margin-top: 15px;
+   
+  }
+  .postContent, .editorPage{
+    text-align: center;
+  }
+  .postContent h3{
+    text-align: center;
+    margin-top: 20px;
+    color:rgba(3, 3, 3, 0.733)
+  }
+  
+ 
