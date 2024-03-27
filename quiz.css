@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background-image:url(student3images/background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.start_button,.information_box,.quiz_box,.result_quiz{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
