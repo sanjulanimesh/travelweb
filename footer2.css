@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  
+  .header {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    transition: all 0.5s;
+    width: 75%;
+  }
+
+  .navi-on-scroll{
+    transition: all 0.5s;
+    height: 60px;
+    background-color: rgba(84, 85, 85, 0.911);
+    border-bottom: rgba(0, 0, 0, 0.5) solid 1px;
+} 
+  
+  .nav{
+    top: 0;
+    left: 0;
+    float: left;
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), transparent);
+    transition: all 0.5s;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    margin: 0;
+    
+      
+  }
+  .logo{
+      flex-basis:1%;
+  }
+  
+  .logo img{
+      margin-top: 5px;
+      width: 50px;
+      height: 50px;
+  }
+  
+  .nav-text1{
+      font-size: 25px;
+      font-family: 'dm sans', bold;
+      color: #ffffff;
+      letter-spacing: 2px;
+      margin-left: 70px;
+  }
+  .nav-text2{
+    font-size: 25px;
+    font-family: 'dm sans', bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-left: 0px;
+  }
+  
+  .nav-links{
+      flex:1;
+      text-align: right;
+      padding-right: 52px;
+      z-index: 100;
+  }
+  
+  .nav-links ul li{
+      list-style: none;
+      display: inline-block;     
+  }
+  .nav-links ul li a, .back-to-top{
+      display: inline-block;
+      color: white;
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 300;
+      text-decoration: none;
+      padding: 8px 20px; 
+      border-radius: 35px;
+      margin-left: 10px;     
+  }
+  .nav-links ul li a:hover, .back-to-top{
+      background-color: rgba(0, 0, 0, 0.9);
+      color: rgb(91, 195, 255);
+      transition: 0.5s;
+  }
+  .back-to-top:hover{
+      background-color: rgba(0,0,0,0.8);
+      color: rgb(255, 255, 255);
+      transition: 0.5s;
+  }
+  
+  .nav-links ul li a.activehome{
+      background-color: transparent;
+      border: 2px solid rgb(255, 255, 255);
+      color: #ffffff;    
+  }
+  
+.end{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    position: relative;
+    margin-top:50vw ;
+    font-family: 'Quicksand', sans-serif;
+    background: url(student3images/footerimg.png);
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    padding: 70px 0px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.end::after{
+    background: linear-gradient(white, transparent);
+    position: absolute;
+    width: 100%;
+    content: '';
+    top: 0;
+    height: 20px;
+}
+
+.footer-box {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 50;
+    justify-content: space-evenly;
+    display: flex;
+    color: black;
+}
+
+.footer-details{
+    line-height: 25px;
+    display: flex;
+    z-index: 100;
+    width: 74%; 
+    flex-direction: row-reverse;
+}
+
+.footer-contact{
+    padding: 70px;
+    display: block;
+    align-items: right;
+    font-weight: 20px;
+    padding: 35px;
+    
+}
+
+.footer-box img{
+    flex-basis: 1%;
+    margin-top: 30px;
+    height: 100px;
+}
+
+.footer-contact ul li{
+    list-style: none;
+    
+}
+.footer-contact ul li a{
+    color: rgb(0, 133, 199);
+    text-decoration: none; 
+}
+
+.footer-contact ul li a:hover{
+    color: rgb(0, 133, 199);
+    text-decoration: underline; 
+}
+
+
+.social-media a i{
+    color: black;
+    font-size: 1.1rem;
+    transition: color .4s ease;
+    
+}
+
+.social-media{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 3rem 0;
+    
+}
+
+.social-media a{
+    text-decoration: none;    
+}
+
+.social-media a:hover i{
+    color: grey;
+}
+.footer-bottom a{   
+    font-weight: 200;
+    text-decoration: none;
+    color: #362b97;
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+}
+.footer-bottom{
+    
+    width: 65vw;
+    padding: 10px 5px 10px 10px;
+    position:absolute;
+    text-align: center;
+    margin-top:19vw;
+    
+}
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing: 2px;
+    color: #706e6e;
+}
+
+
+
+
