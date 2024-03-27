@@ -1,0 +1,69 @@
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    background-image: url("../images/prakashB.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+        
+  }
+  
+  /* Blog post styles */
+  .post {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffffbf;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  .getDown{
+    margin-top: 60px;
+  }
+  .ourPost {
+    margin-top: 10px;
+    background-image: url('../images/prakashF.JPG');
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    justify-content: center;
+   
+  }
+  .backgroundAboutPhoto{
+    margin-top: -280px;
+    margin-left: -20vw;
+    width: 150vw;
+    position: fixed;
+    z-index: -1;
+    min-height: auto;
+    min-width: auto;
+  }
+  
+  .postContent h2 {
+    text-align: center;
+    margin-top: 15px;
+   
+  }
+  .postContent, .editorPage{
+    text-align: center;
+  }
+  .postContent h3{
+    text-align: center;
+    margin-top: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(3, 3, 3, 0.733)
+  }
+  
+ 
