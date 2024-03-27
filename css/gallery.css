@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background1{
+    height: 85vh;
+    
+}
+*.background2{
+    height: 55vh;
+    /*background-image:url("istockphoto-1322859145-612x612.jpg");*/
+    background-image: linear-gradient(to right top, #B2BEB5, #B2BEB5, #97A39A, #97A39A, #7D8980, #7D8980, #646F67, #4C574F, #364038, #202A23, #0A150D, #000000);}
+.background3{ /* large caption paragraph */
+    
+    
+}
+#galleText, #hikkaduwaText, #ellaText, #kandyText, #sigiriyaText, #unawatunaText, #arugambayText, #jaffnaText {
+    display: none;  
+  }
+  .large{
+    float: left; /* side by side large image and dicription */
+    padding: 2vw;
+  }
+  .colorButtonDesign{
+    height: 45px;/* Color & design  */
+    background: rgba(84, 85, 85, 0.911);
+    background: linear-gradient(90deg, rgb(235, 234, 234) 0%, rgb(24, 24, 22) 38%, rgb(20, 19, 19) 85%);
+    padding: 2px;
+  }
+  .textButton{ 
+    float: left;
+  }
+  .colorButton{
+    float: right;
+  }
+  .button{
+    height: 25px;/* Button  */
+    width: 45px;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  h2{
+    text-align: center; 
+    margin-top: 10px;
+    padding: 10px;
+    font-family:Cursive;
+    font-size: 100px;
+    color: #5c516e;
+    background-image: url("../images/backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    
+    
+
+  }
+  
+
+  #bigImage{
+    border-radius: 55px;
+  }
+.sideImage{ 
+    float: left;
+    padding-left: 1%;
+    padding-top: 2%;
+    height: 22vh;
+    width: 15%;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(2, 2, 2, 0.233);
+    
+
+  }
+ .sideImage:hover{
+    transform: scale(1.1); /* (110% zoom )*/
+    
+    box-shadow: 3px 5px rgb(91, 195, 255);
+    cursor:pointer;
+}
+ 
+  .allText{
+    height: 20vw;
+    width: 900px;
+    border-style: double;
+    color: white;
+  }
+   
+    .col{
+        margin-left: 18%;
+        width: 100%;
+    
+}
+    .allrows{
+        display: flex;
+        flex-direction: column;
+
+}
+    
+
+.description{
+    color: whitesmoke;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.bttnClick{
+    text-align: center;
+}
+#button1,#button2,#button3,#button4{
+    border-radius: 35px;
+}
+#button1{
+    background-color: #D3D3D3;
+    
+}
+#button1:hover{
+    background-color:#A9A9A9;
+}
+#button2{
+    background-color: #2E5A88;
+}
+#button2:hover{
+    background-color: #02075d;
+}
+#button3{
+    background-color: #FFC5CB;
+}
+#button3:hover{
+    background-color: #B5485D;
+}
+#buton4{
+    background-color: rgb(50, 50, 48);
+}
+#button4:hover{
+    background-color: #05050533;
+}
+#button3:hover{
+    background-color: rgba(200, 196, 203, 0.489);
+}
+
+.col{
+    margin-left: 18%;
+    width: 100%;
+}
+#slider{
+    margin-top: 10px;
+    margin-left: 10px;
+    accent-color: rgb(30, 0, 255);
+
+}
+.getDown{
+    margin-top: 60px;
+
+}
+@keyframes animate{
+
+    0%{
+        color: rgb(243, 251, 252);
+        box-shadow: none;
+    }
+    25%{
+
+        color: rgba(189, 193, 195, 0.993);
+        box-shadow: none;
+    }
+
+    50%{
+        color: rgba(135, 136, 140, 0.623);
+        box-shadow: none;
+    }
+    100%{
+        color: rgb(243, 243, 249);
+        box-shadow: none;
+    }
+
+}
+
