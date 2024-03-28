@@ -1,0 +1,104 @@
+
+  /* footer section */
+  
+  footer {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    background-size: 100% 100%;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    padding: 70px 0px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    background: url(student3images/footerimg.png) no-repeat;
+}
+footer::after{
+    background: linear-gradient(white, transparent);
+    position: absolute;
+    width: 100%;
+    content: '';
+    top: 0;
+    height: 20px;
+}
+.footer-box {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 50;
+    justify-content: space-evenly;
+    display: flex;
+    color: black;
+}
+.footer-details{
+    line-height: 25px;
+    display: flex;
+    z-index: 100;
+    width: 74%; 
+    flex-direction: row-reverse;
+}
+.footer-contact{
+    display: block;
+    align-items: right;
+    font-weight: 20px;
+    padding: 35px;    
+}
+.footer-box img{
+    flex-basis: 1%;
+    margin-top: 30px;
+    height: 100px;
+}
+.footer-contact ul li{
+    list-style: none;    
+}
+.footer-contact ul li a{
+    color: rgb(0, 133, 199);
+    text-decoration: none; 
+}
+.footer-contact ul li a:hover{
+    color: rgb(0, 133, 199);
+    text-decoration: underline; 
+}
+.social-media a i{
+    color: black;
+    font-size: 1.1rem;
+    transition: color .5s ease;   
+}
+.social-media{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 3rem 0;   
+}
+.social-media a{
+    text-decoration: none;    
+}
+.social-media a:hover i{
+    color: grey;
+}
+.footer-bottom a{   
+    font-weight: 200;
+    text-decoration: none;
+    color: #1619b4;
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+}
+.footer-bottom{   
+    width: 65vw;
+    padding: 10px 5px 10px 10px;
+    position:absolute;
+    text-align: center;
+    margin-top:17vw;    
+}
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing: 2px;
+    color: #888585;
+}
+
+
