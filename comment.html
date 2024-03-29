@@ -17,7 +17,228 @@
 <head>
 
 <body>
-waitting for body design 
-</body>
+    <header>
+        <div id="navbar" class="nav">
+            <div class="nav-text" style="margin-left: 70px;">
+                Sri 
+            </div>
+            <div class="logo" >
+                <a href="#top"><img src="Images/SLLogo.png" alt="logo"></a>
+            </div>
+            <div class="nav-text">
+                Lanka
+            </div>
+            <div class="nav-links">
+                <ul>
+                       <!-- Navigation links -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="sitemap.html">Site Map</a></li> 
+                    <li><a class ="active"  href="comments.html">Comments</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="studentdetails.html">About Us</a></li>
+                </ul>
+            </div> 
+        </div> 
+    </header>
+    <!-- Background image display on web page -->
+    <img class = "beach" src="Images/beachsea.jpg" alt="beach-image">
+     
+    <div class="com-content">
+    <div class="container" id="details">
+        <div id="form-container">
+            <form id="feedback-form" name="feedback-form"  onsubmit ="return validateForm()" action="mailto:sanjula.20220730@iit.ac.lk" method="post" enctype="text/plain" novalidate>
+                <div class="details">
+                    <div class="title"><b><u>GIVE  US  A  LITTLE  COMMENT</u></b></div><br>
+                    <div class="inputbox">
+                        <label for="name">Enter Your Full Name :</label>
+                        <input type="text" id="name" name="name"  placeholder="name here" required>
+                        <div class="error-message" id="name-error">
+                            Please your name must be filled out.
+                        </div>
+                    </div>
+                    <!-- Input box for email -->
+                    <div class="inputbox"><br>
+                        <label for="email">Enter Your a Email :</label>
+                        <input type="email" id="email" name="email" placeholder="email here" required>
+                        <div class="error-message" id="email-error">
+                            Please your email must be filled out.
+                        </div>
+                        <div class="error-message" id="email-not-valid-error">
+                            Enter a correct email !!
+                        </div>
+                    </div>
+
+                    <div>
+                        <!-- Rating section -->
+                        <p class="question">How satisfied you with our website? Give Rate us 0 - 5( 0-Dissatisfied , 5-Extremely Satisfied)</p>
+                        <div>
+                            <label for = "rate" id="rate" class="radio-btn">
+                                <!-- Rating options -->
+                                <span class="small-feedback"> 
+                                    <!-- feedback 1 display on -->
+                                    <label for="rate">1</label>
+                                    <input type="radio" id="1" name="rate" value="1" required>
+                                </span>
+                                <span class="small-feedback"> 
+                                    <label for="rate">2</label>
+                                    <!-- feedback 2 display on -->
+                                    <input type="radio" id="2" name="rate" value="2" required>
+                                </span>
+                                <span class="small-feedback">
+                                    <label for="rate">3</label>
+                                    <!-- feedback 3 display on -->
+                                    <input type="radio" id="3" name="rate" value="3" required>
+                                </span>
+                                <span class="small-feedback">
+                                    <label for="rate">4</label> 
+                                    <!-- feedback 4 display on -->    
+                                    <input type="radio" id="4" name="rate" value="4" required>
+                                </span>
+                                <span class="small-feedback">
+                                    <label for="rate">5</label> 
+                                    <!-- feedback 5 display on -->
+                                    <input type="radio" id="5" name="rate" value="5" required>
+                                </span>
+                            </label>
+                        </div>
+                            <div class="error-message" id="rating-error">
+                                Please choose one from above 5 rating level
+                            </div>
+                    </div>
+
+                    <!-- Input box for feedback -->
+                    <div class="inputbox">
+                        <p>Would you kindly explain your reasoning for giving this rating?</p>
+                        <input id="reason" name="reason" placeholder="Your feedback here" required>
+                        <label for="reason"></label>
+                            <div class="error-message" id="reason-error">
+                                Please kindly fill this...
+                            </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <!-- Button for form submission -->
+                    <input type="submit" value="Send" id="send-btn" onclick="validateForm()">
+                </div>
+            </form>
+        </div>
+        <div class="thank-you-card" id="thank-you-card" >
+            <!-- Thank you message after submission -->
+            <h1>Thank You!</h1>
+            <p>feedback Successfully!!!</p>
+        
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <!-- social media links  -->
+        <div class="footer-content">
+                
+                
+            <div class="footer-details">
+                
+                <div class="footer-card" style="width: 150px;">
+                    <h3>Find us on</h3>
+                    <ul class="socials">
+                        <li><a href="https://www.google.com/">
+                            <i class="fa-brands fa-google"></i></a></li>
+                        <li><a href="https://www.youtube.com/">
+                            <i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/">
+                            <i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://web.facebook.com/">
+                            <i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/">
+                            <i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-card"><h3>contact us</h3>
+                    TELEPHONE : +94 71 534 4743<br>
+                    RESERVATIONS : +94 71 534 4743<br>
+                    WHATSAPP  : +94 71 534 4743<br>
+                    TELEPHONE (US) : +94 71 534 4743<br>
+                    EMAIL : SLTRAVELWORLD@.COM<br>
+                </div>
+    
+                <div class="footer-card">
+                    <h3>quick links</h3>
+                    <ul>
+                        <li><a href="place.html">Place</a></li>
+                        <li><a href="weather-extra-page.html">Weather climate</a></li>
+                        <li><a href="food.html">Food</a></li>
+                        <li><a href="traditional.html">Traditional</a></li>
+                    </ul>
+    
+                </div>
+                <div class="footer-card">
+                    <h3>Main Travel Center</h3>
+                    <address>SLTRAVELWORLD,<br> 5, River Road,<br> Colombo 10, 00400, <br>SRI LANKA.</address>
+                </div>
+            </div>
+                
+        </div>
+        
+        <div class="footer-bottom">
+            <p><b>Designed by </b><a href="sanjula.html">Sanjula Nimesh</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function validateForm() {
+            var name = document.forms["feedback-form"]["name"].value;
+            var email = document.forms["feedback-form"]["email"].value;
+            var rating = document.forms["feedback-form"]["rate"].value;
+            var reason = document.forms["feedback-form"]["reason"].value;
+            const emailvalidate =/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+            document.getElementById('name-error').style.display = "none";
+            document.getElementById('email-error').style.display = "none";
+            document.getElementById('email-not-valid-error').style.display = "none";
+            document.getElementById('rating-error').style.display = "none";
+            document.getElementById('reason-error').style.display = "none";
+
+            if (name == "") {
+                document.getElementById('name-error').style.display = "block";
+                return false;
+            }else if (email == "" ) {
+                document.getElementById('email-error').style.display = "block";
+                return false;
+            }else if (!email.match(emailvalidate)){
+                document.getElementById('email-not-valid-error').style.display = "block";
+                return false;
+            }else if (rating == "") {
+                document.getElementById('rating-error').style.display = "block";
+                return false;
+            }else if (reason == "") {
+                document.getElementById('reason-error').style.display = "block";
+                return false;
+            }else{
+                hideBox();
+                showBox();
+                setTimeout("pageRedirect()", 5000);
+            }
+        }
+
+        //function for autoredirect
+        function pageRedirect() {
+        window.location.replace("home.html");
+        } 
+
+        
+        function hideBox() {
+        document.getElementById("form-container").style.display="none";
+        }
+         
+        // for thank you message 
+        function showBox() {
+        document.getElementById("thank-you-card").style.display="block";
+        }
+
+    </script>
+    <script src="js/navigation.js"></script>
 </body>
 </html>
