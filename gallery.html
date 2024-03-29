@@ -201,4 +201,121 @@
            </div>
         </div>
      </div>
-      
+
+     <footer>
+        <div class="footer-content">
+              
+              
+           <div class="footer-details">
+               
+               <div class="footer-card" style="width: 150px;">
+                   <h3>Find us on</h3>
+                   <ul class="socials">
+                       <li><a href="https://www.google.com/">
+                           <i class="fa-brands fa-google"></i></a></li>
+                       <li><a href="https://www.youtube.com/">
+                           <i class="fa-brands fa-youtube"></i></a></li>
+                       <li><a href="https://www.instagram.com/">
+                           <i class="fa-brands fa-instagram"></i></a></li>
+                       <li><a href="https://web.facebook.com/">
+                           <i class="fa-brands fa-facebook-f"></i></a></li>
+                       <li><a href="https://www.linkedin.com/">
+                           <i class="fa-brands fa-linkedin"></i></a></li>
+                   </ul>
+               </div>
+   
+               <div class="footer-card"><h3>contact us</h3>
+                   TELEPHONE : +94 71 534 4743<br>
+                   WHATSAPP  : +94 71 534 4743<br>
+                   TELEPHONE (US) : +94 71 534 4743<br>
+                   EMAIL : SLTRAVELWORLD@.COM<br>
+               </div>
+   
+               <div class="footer-card">
+                   <h3>quick links</h3>
+                   <ul>
+                       <li><a href="place.html">Place</a></li>
+                       <li><a href="weather-extra-page.html">Weather climate</a></li>
+                       <li><a href="food.html">Food</a></li>
+                       <li><a href="cuntentCulture.html">Traditional</a></li>
+                   </ul>
+   
+               </div>
+               <div class="footer-card">
+                   <h3>Main Travel Center</h3>
+                   <address>SLTRAVELWORLD,<br> 5, River Road,<br> Colombo 10, 00400, <br>SRI LANKA.</address>
+               </div>
+           </div>
+               
+       </div>
+       
+       <div class="footer-bottom">
+           <p><b>Designed by </b><a href="prakash.html">Prakash Manusha.</a></p>
+       </div>
+     </footer>
+  
+  
+     
+       
+     <script>
+       src="js/navigation.js"
+        function displayImage(image) {
+        let largeImg = document.getElementById("bigImage");
+        let imgtext = document.getAnimations("imgText");
+        largeImg.src = image.src;
+        
+        if (image.id == "galle") {
+            document.getElementById("paragraph").innerHTML = document.getElementById("galleText").innerHTML;
+        } else if (image.id == "hikkaduwa") {
+            document.getElementById("paragraph").innerHTML = document.getElementById("hikkaduwaText").innerHTML;
+        } else if (image.id == "ella") {
+            document.getElementById("paragraph").innerHTML = document.getElementById("ellaText").innerHTML;
+        } else if (image.id == "kandy") {
+            document.getElementById("paragraph").innerHTML = document.getElementById("kandyText").innerHTML;
+        } else if (image.id == "sigiriya") {
+            document.getElementById("paragraph").innerHTML = document.getElementById("sigiriyaText").innerHTML;
+        } else if (image.id == "unawatuna") {
+            document.getElementById("paragraph").innerHTML = document.getElementById("unawatunaText").innerHTML;
+        } else if (image.id == "arugambay") {
+            document.getElementById("paragraph").innerHTML = document.getElementById("arugambayText").innerHTML;
+        } else if (image.id == "jaffna") {
+            document.getElementById("paragraph").innerHTML = document.getElementById("jaffnaText").innerHTML;
+        } else {
+            document.getElementById("paragraph").innerHTML = "";
+        }
+        
+        largeImg.parentElement.style.display = "block";
+        }
+        
+            
+                
+                               // color change button
+            
+                let body = document.querySelector("body");
+                 document.querySelector("#button1").addEventListener('click',function(){
+                    body.style.backgroundColor=("#A9A9A9")
+                 })
+            
+                 document.querySelector("#button2").addEventListener('click',function(){
+                    body.style.backgroundColor=("#02075d")
+                 })
+                 document.querySelector("#button3").addEventListener('click',function(){
+                    body.style.backgroundColor=("#FFC5CB")
+                 })
+                 document.querySelector("#button4").addEventListener('click',function(){
+                    body.style.backgroundColor=("#333333")
+                 })
+            
+            
+                 // text size
+            
+                 slider.oninput = changeFontSize;
+            
+                 function changeFontSize(){
+                    paragraph.style.fontSize = this.value+"px";
+                 }
+            
+            
+     </script>            
+  </body> 
+  </html>      
